@@ -9,7 +9,7 @@
   },
   "package": {
     "productName": "NextChat",
-    "version": "2.15.8"
+    "version": "2.16.0"
   },
   "tauri": {
     "allowlist": {
@@ -95,7 +95,7 @@
       "dangerousUseHttpScheme": true
     },
     "updater": {
-      "active": true,
+      "active": false,
       "endpoints": [
         "https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/releases/latest/download/latest.json"
       ],

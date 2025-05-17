@@ -310,13 +310,7 @@ export function getHeaders(ignoreHeaders: boolean = false) {
   }
 
   function getAuthHeader(): string {
-    return isAzure
-      ? "api-key"
-      : isAnthropic
-      ? "x-api-key"
-      : isGoogle
-      ? "x-goog-api-key"
-      : "Authorization";
+    return "Authorization";
   }
 
   const {
